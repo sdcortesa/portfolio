@@ -405,7 +405,7 @@ input[type='checkbox'] {
     margin: 0;
     z-index: -1;
     object-fit: cover;
-    filter: grayscale(0.5);
+    filter: grayscale(0.1);
     transition: filter 200ms ease, transform 250ms linear;
   }
   
@@ -639,20 +639,20 @@ textarea {
     }
     
     .slide {
-      height: 75vh;
+      height: 80vh;
       overflow-x: hidden;
     }
     .input {
         opacity: 0;
-        margin-top: 55vh;
+        margin-top: 64vh;
         cursor: pointer;
       }
       
     #header {
-        width: 90%;
+        width: 95%;
         flex-direction: column;         
         align-items: flex-start;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
 
